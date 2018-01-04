@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+<include file="uwb_driver.launch">
+     <arg name="tag_id" value="front" />
+  </include>
+<include file="uwb_driver.launch">
+     <arg name="tag_id" value="rear" />
+  </include>
+</launch>
