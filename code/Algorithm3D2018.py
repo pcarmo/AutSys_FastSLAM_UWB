@@ -531,7 +531,7 @@ if __name__ == '__main__':
         odom = cp.deepcopy(sub_odom) # deepcopy because a class (MyOdom) is mutuable
         sub_odom.new = 0 # set flag back to zero
         z_front = [sub_tagF.dA, sub_tagF.dB, sub_tagF.dC] # no deepcopy because each dX is imutable
-        z_rear  = [sub_tagR.dA, sub_tagR.dB, sub_tagR.dC] # CHECK IF NAME IS THE SAME AS FRONT TAG!!!!!
+        z_rear  = [sub_tagR.dB, sub_tagR.dC, sub_tagR.dA] # CHECK IF NAME IS THE SAME AS FRONT TAG!!!!!
         z = [z_front, z_rear]
 
         move = odom.pose - pose0
