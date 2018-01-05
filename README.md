@@ -2,6 +2,7 @@
 FastSLAM usign UWB repository for Autonomous Systems course
 
 Contributors:
+
 	-Name: 		João Canas 
 	-e-mail:	joaocarloscanas@tecnico.ulisboa.pt
 	-Degree:	MEAero
@@ -20,4 +21,4 @@ Contributors:
 
 Institution:
 
--Instituto Superior Técnico, Universidade de Lisboa (2017/2018)
+	-Instituto Superior Técnico, Universidade de Lisboa (2017/2018)
